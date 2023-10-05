@@ -91,7 +91,9 @@ Koristi se troslojni model arhitekture. Tri sloja koja su u upotrebi su:
 -	prezentacijski,
 -	sloj poslovne logike i 
 -	sloj baze podataka.
-![image](https://github.com/nejlaBelagosi/MSAccess-Sistem-javnih-gradskih-bicikala/assets/122165597/866fa688-50c0-445e-b76d-f43a55113466)
+  
+![image](https://github.com/nejlaBelagosi/MSAccess-Sistem-javnih-gradskih-bicikala/assets/122165597/981226f1-2ae6-4805-87ee-e52d9087c0b1)
+
 
 ## Model arhitekture mreže
 Interni korisnici se nalaze sa iste strane firewalla kao i aplikacijski i database serveri, dok se eksterni korisnici (klijenti i serveri) nalaze sa druge strane. Eksterni korisnici pristupaju pomoću aplikacije na smart telefonu, a interni pomoću web browsera.
@@ -100,5 +102,9 @@ Interni korisnici se nalaze sa iste strane firewalla kao i aplikacijski i databa
 ## Gantogram
 ![image](https://github.com/nejlaBelagosi/MSAccess-Sistem-javnih-gradskih-bicikala/assets/122165597/dc9e1c9c-9c27-478e-9183-bfa29848ecc3)
 
+# Baza podataka
+Pri samom ulasku u bazu podataka postavljena je „Password“ (šifra). Da bismo šifru postavili potrebno je file baze podataka otvoriti u tzv. „Open Exclusive“ obliku. I tek onda pristupamo enkriptovanju naše baze podataka.
+Za izradu login forme formirala sam tabelu pod nazivom ”user”, u kojoj se nalaze podaci kao što su username i lozinka. Nakon prijavljivanja otvara nam se prozor sa Main Menu formom odakle možemo pristupiti ostalim <b><i>formama</i></b>, <b><i>izvještajima</i></b> ili <b><i>upitima>/i></b>. 
+Prilikom formiranja „Login forme“ koristena je opcija <b><i>macro</i></b>.
 
 
